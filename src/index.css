@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+h1 { @apply text-[32px] font-bold; }
+h2 { @apply text-[24px] font-semibold; }
+h3 { @apply text-[20px] font-medium; }
+p  { @apply text-[16px]; }
+small { @apply text-[14px]; }
