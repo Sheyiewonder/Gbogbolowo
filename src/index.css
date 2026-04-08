@@ -1,7 +1,21 @@
+/* src/index.css */
 @import "tailwindcss";
 
-h1 { @apply text-[32px] font-bold; }
-h2 { @apply text-[24px] font-semibold; }
-h3 { @apply text-[20px] font-medium; }
-p  { @apply text-[16px]; }
-small { @apply text-[14px]; }
+/* Define your custom theme variables */
+@theme {
+  /* Colors */
+  --color-primary: #1F3A5F;
+  --color-accent: #F36F21;
+  --color-muted: #8A8A8A;
+  --color-background: #F5F5F5;
+
+  --color-darkBg: #0F172A;
+  --color-darkCard: #1E293B;
+  --color-darkText: #F9FAFB;
+
+  --backgroundImage-heroPattern: url('/src/assets/18c1270c05243d892bfe6641147454cb.jpg');
+  --backgroundImage-footerTexture: url('/img/footer-texture.png');
+
+  /* Font Family */
+  --font-sans: "Poppins", "Inter", sans-serif;
+}

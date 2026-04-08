@@ -3,7 +3,7 @@ export default {
   darkMode: "class", 
   content: [
     "./index.html",
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}", 
   ],
   theme: {
     extend: {
@@ -16,12 +16,13 @@ export default {
         darkBg: "#0F172A",
         darkCard: "#1E293B",
         darkText: "#F9FAFB",
-
-        backgroundImage: {
-          'heroPattern': "url('/src/assets/18c1270c05243d892bfe6641147454cb.jpg')",
-          'footerTexture': "url('/img/footer-texture.png')",
-        }
       },
+
+      backgroundImage: {
+                'heroPattern': "url('/src/assets/18c1270c05243d892bfe6641147454cb.jpg')",
+                'footerTexture': "url('/img/footer-texture.png')",
+      },
+
       fontFamily: {
         sans: ["Poppins", "Inter", "sans-serif"],
       },
